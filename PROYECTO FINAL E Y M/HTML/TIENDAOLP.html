@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../CSS/MAIN.css"><!-- css ENLAZAR-->
+    <link rel="stylesheet" href="../HTML/FORMULARIODECONTACTO.php"><!-- css ENLAZAR-->
+    
+    
+    
+</head>
+<body>
+
+    <div class="wrapper">
+        <aside>
+            <header>
+                <h1 class="logo">Papeleria</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id="Esferos" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Esferos</button>
+                    </li>
+                
+                    <li>
+                        <button id="Lapices" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Lapices</button>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./CARRITO.html"><!-- carrito.html ENLAZAR-->
+                            <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <header class="top-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-5 header-logo">
+                            <br>
+                            <a href="index.html"><img src="img/klipartz.com (12).png" alt="" class="img-responsive logo"></a>
+                        </div>
+        
+                        <div class="col-md-7">
+                            <nav class="navbar navbar-default">
+                            <div class="container-fluid nav-bar">
+                            
+                                <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span class="sr-only">Nosotros</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                </div>
+        
+                                
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a class="menu" href="./index.html" >INICIO</a></li>
+                                    <li><a class="menu active" href="./NOSOTROS.html">NOSOTROS</a></li> 
+                                    <li><a class="menu" href="./TIENDAOLEYM.html">PRODUCTOS </a></li>
+                                    <li><a class="menu" href="./CONTACTO.html"> CONTACTOS</a></li>
+                        </ul>
+                                </div>
+                    </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header> 
+            <footer>
+                <p class="texto-footer">©️ 2023 </p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <!-- Esto se va a rellenar con JS -->
+            </div>
+        </main>
+    </div>
+    
+    <script src="../JS/MAIN.js"></script><!-- main.js ENLAZAR-->
+</body>
+</html>
